@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.fullscreen {
+  min-height: 100vh;
+  background: url("../img/hero-bg.jpg") no-repeat top center / cover;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.container {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: 903px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fullscreen__logo {
+  background: url("img/logo.svg") no-repeat;
+  margin: 280px 0 90px 0;
+}
+.fullscreen__title,
+{
+  font-weight: 700;
+  font-size: 54px;
+  letter-spacing: 0.16em;
+  margin-bottom: 50px;
+}
+.fullscreen__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.06em;
+}
+.fullscreen__text:last-child {
+    margin-bottom: 395px;
+}
+.about ,
+.services,
+.what-we-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3c3c3c;
+  text-align: center;
+  
+}
+.about__body {
+  border: 2px solid rgb(60, 60, 60);
+  margin-bottom: 160px;
+}
+.about__title ,
+.services__title ,
+.what-we-do__title ,
+.our-works__title {
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 0.16em;
+  margin-bottom: 65px;
+  padding: 0 120px;
+  text-transform: uppercase;
+}
+.about__text,
+.services__text ,
+.what-we-do__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  padding: 0 170px;
+}
+/* services */
+.services {
+  background: url('/img/services.jpg') no-repeat;
+  color: #fff;
+  margin: 0;
+}
+.services__body {
+  border: 2px solid rgb(255, 255, 255);
+  }
+  /* what we do */
+  .what-we-do__subtitle {
+    text-transform: uppercase;
+    color: #3c3c3c;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+  .what-we-do__text{
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0;
+  }
+  
+  /* our worcks */
+.our-works__card--topworkz {
+  background: url("/img/topworkz.jpg") no-repeat;
+}
+.our-works__card--joint {
+  background: url("/img/joint.jpg") no-repeat;
+}
+.our-works__card--MArket {
+  background: url("/img/MArket.jpg") no-repeat;
+}
+.our-works__card--worktop {
+  background: url("/img/worktop.jpg") no-repeat;
+}
+.our-works__card--lable {
+  background: url("/img/lable.jpg") no-repeat;
+}
+.our-works__card--Kyiv {
+  background: url("/img/Kyiv.jpg") no-repeat;
+}
+.our-works__body {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.our-works__card {
+  flex-basis: 33.3%;
+  
+}
+  .our-works__title {
+    color: #fff;
+    padding: 0;
+  }
